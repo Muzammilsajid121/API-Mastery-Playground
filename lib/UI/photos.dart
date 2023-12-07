@@ -59,8 +59,8 @@ class _HomeScreenState extends State<PhotoApiScreen> {
                         leading: 
                         CircleAvatar(
                           backgroundImage: NetworkImage(
-                            'https://via.placeholder.com/150/54176f'
-                            // snapshot.data![index].url.toString(),scale: 1.0,
+                            // 'https://via.placeholder.com/150/54176f'
+                            snapshot.data![index].url.toString(),scale: 1.0,
                           ) ,
                         ),
                       
