@@ -5,6 +5,7 @@ import 'package:muzammil_apis/UI/login.dart';
 import 'package:muzammil_apis/UI/photos.dart';
 import 'package:muzammil_apis/UI/products.dart';
 import 'package:muzammil_apis/UI/signup.dart';
+import 'package:muzammil_apis/UI/upload_image.dart';
 import 'package:muzammil_apis/UI/users.dart';
 
 void main() {
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
 
         //
       ),
-      home: const LoginApiScreen(),
+      home: const UploadImageApiScreen(),
     );
   }
 }

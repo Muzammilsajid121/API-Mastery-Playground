@@ -3,6 +3,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
+// email:    eve.holt@reqres.im
+// password: pistol
+// post api doesn't need models
+
 class SignupApiScreen extends StatefulWidget {
   const SignupApiScreen({super.key});
   @override
